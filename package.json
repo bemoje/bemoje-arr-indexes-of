@@ -1,6 +1,6 @@
 {
    "name": "@bemoje/arr-indexes-of",
-   "version": "1.0.1",
+   "version": "1.0.2",
    "description": "Returns all indexes at which an element is found.",
    "main": "dist/arr-indexes-of.umd.js",
    "module": "dist/arr-indexes-of.esm.js",
