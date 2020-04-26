@@ -7,6 +7,12 @@
 	assertArgs = assertArgs && Object.prototype.hasOwnProperty.call(assertArgs, 'default') ? assertArgs['default'] : assertArgs;
 	assertType = assertType && Object.prototype.hasOwnProperty.call(assertType, 'default') ? assertType['default'] : assertType;
 
+	/**
+	 * Returns all indexes at which an element is found.
+	 * @param {Array} arr - The array to search
+	 * @param {*} element - The element to find
+	 * @returns {Array<number>}
+	 */
 	function arrIndexesOf(arr, element) {
 		assertArgs(arr, element);
 		assertType(Array, arr);

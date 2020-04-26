@@ -1,6 +1,12 @@
 import assertArgs from '@bemoje/assert-args';
 import assertType from '@bemoje/assert-type';
 
+/**
+ * Returns all indexes at which an element is found.
+ * @param {Array} arr - The array to search
+ * @param {*} element - The element to find
+ * @returns {Array<number>}
+ */
 function arrIndexesOf(arr, element) {
 	assertArgs(arr, element);
 	assertType(Array, arr);

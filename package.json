@@ -1,7 +1,7 @@
 {
    "name": "@bemoje/arr-indexes-of",
-   "version": "1.0.0",
-   "description": "Node library template package with full ESM support. All features available as npm scripts: Jest testing. Rollup build. Rename package - affecting all relevant files. Readme generator. Markdown and HTML API-documentation. Npm publish and version bumping. Github repository create, delete and commit. Jsdoc block comment description triggers package description updates. Package keyword-extraction from block comments in source code.",
+   "version": "1.0.1",
+   "description": "Returns all indexes at which an element is found.",
    "main": "dist/arr-indexes-of.umd.js",
    "module": "dist/arr-indexes-of.esm.js",
    "browser": "dist/arr-indexes-of.umd.js",
@@ -66,6 +66,14 @@
       "walk-sync": "^2.1.0"
    },
    "keywords": [
+      "returns",
+      "indexes",
+      "element",
+      "found",
+      "arr",
+      "array",
+      "search",
+      "find",
       "arrindexesof"
    ]
 }

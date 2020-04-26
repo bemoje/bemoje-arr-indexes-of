@@ -1,6 +1,6 @@
 # @bemoje/arr-indexes-of
 
-Node library template package with full ESM support. All features available as npm scripts: Jest testing. Rollup build. Rename package - affecting all relevant files. Readme generator. Markdown and HTML API-documentation. Npm publish and version bumping. Github repository create, delete and commit. Jsdoc block comment description triggers package description updates. Package keyword-extraction from block comments in source code.
+Returns all indexes at which an element is found.
 
 #### Version
 
@@ -59,4 +59,24 @@ npm run test
 ```
 
 ## API
-#s
+### arrIndexesOf
+
+##### Returns
+all indexes at which an element is found.
+
+##### Parameters
+
+-   `arr` **[Array][3]** The array to search
+
+-   `element` **any** The element to find
+
+##### Returns
+**[Array][3]&lt;[number][4]>** 
+
+[1]: #arrindexesof
+
+[2]: #parameters
+
+[3]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+[4]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
