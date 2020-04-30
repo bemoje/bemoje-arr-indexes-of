@@ -1,6 +1,6 @@
 {
    "name": "@bemoje/arr-indexes-of",
-   "version": "1.0.2",
+   "version": "1.0.3",
    "description": "Returns all indexes at which an element is found.",
    "main": "dist/arr-indexes-of.umd.js",
    "module": "dist/arr-indexes-of.esm.js",
@@ -50,7 +50,7 @@
    },
    "devDependencies": {
       "babel-core": "^6.26.3",
-      "babel-jest": "^25.4.0",
+      "babel-jest": "^25.5.1",
       "babel-preset-env": "^1.7.0",
       "documentation": "^12.3.0",
       "esm": "^3.2.25",
